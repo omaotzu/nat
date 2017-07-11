@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;*/
+}
+*/
+
+html{
+  margin: 0;
+}
+header{
+  background-color: black;
+  height: 350px;
+  margin: 0;
+  font-family: avenir
+}
+body{
+  font-size: 20px;
+  font-family: Helvetica;
+}
+#logo{
+  margin-left: 5%;
+  margin-right: -5%;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  width: 200px;
+  height: 200px;
+  float: left;
+  font-size: 39px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+#logoText{
+  line-height: 2.5;
+}
+.title{
+  margin-top: 50px;
+  padding-left: 100px;
+  color: white;
+  width: 65%;
+  float: right;
+  text-align: left;
+}
+
+#name{
+  font-size: 48px;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+#jobTitle{
+  font-weight: lighter;
+  letter-spacing: 20px;
+}
+
+.experience{
+  float: right;
+  width: 60%;
+  padding-right: 50px;
+  padding-left: 10px;
+  background-color: white;
+}
+#bio{
+  height: 100px;
+  padding: 0 0 10px 0;
+  margin: 5px 0 10px 0;
+}
+
+.nonExperience{
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 125px;
+  background-color: rgb(198,213,208);
+  width: 30%;
+  height: 100%;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+h5{
+  font-size: 24px;
+  letter-spacing: 8px;
+
+}
+h6{
+  font-size: 22px;
+  margin-bottom: 10px;
+
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+li{
+  line-height: 2;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  position: relative;
+  transform: translate(-10%, 20%);
+}
+.largeIcon{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  position: relative;
+  transform: translate(-10%, 20%);
+}
+.skillsList{
+  text-align: center;
+}
+span{
+  float: right;
+  font-style: italic;
+}
+.roleList{
+  list-style: disc;
+  font-size: 18px;
+}
+
+.block{
+  margin-bottom: 150px;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .experience{
+    width: 50%;
+    padding-left: 20px;
+  }
