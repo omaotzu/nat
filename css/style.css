@@ -97,13 +97,15 @@ body{
   font-weight: lighter;
   letter-spacing: 20px;
 }
-
+.content{
+  display: flex;
+}
 .experience{
   float: right;
-  width: 60%;
   padding-right: 50px;
-  padding-left: 10px;
+  padding-left: 50px;
   background-color: white;
+  flex: 0.7;
 }
 #bio{
   height: 100px;
@@ -116,10 +118,10 @@ body{
   padding-left: 30px;
   padding-top: 125px;
   background-color: rgb(198,213,208);
-  width: 30%;
-  height: 100%;
-
+  flex: 0.3;
 }
+
+
 
 h4 {
   text-align: center;
@@ -173,7 +175,11 @@ span{
 .block{
   margin-bottom: 150px;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 640px) {
   .experience{

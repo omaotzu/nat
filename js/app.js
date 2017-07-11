@@ -5,6 +5,8 @@ $(() => {
   const experienceHeight = $experience.height();
   const $window = $('window');
 
+
+
   setHeight();
   function setHeight(){
     $nonExperience.css({
@@ -12,5 +14,5 @@ $(() => {
     });
   }
 
-  $window.on('resize', setHeight);
+  $window.resize(setHeight);
 });
